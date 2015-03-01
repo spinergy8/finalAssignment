@@ -1,0 +1,32 @@
+div {
+  color: red;
+}
+
+li.card.heart {
+  color: red;
+  list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/3/3f/Emblem-favorite.png")
+}
+
+li.card.diamond {
+  color:red;
+  list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Emblem-diamond.svg/48px-Emblem-diamond.svg.png");
+}
+
+li.card.club {
+  list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Emblem-club.svg/48px-Emblem-club.svg.png");
+}
+
+li.card.spade {
+  list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Emblem-spade.svg/48px-Emblem-spade.svg.png");
+}
+
+div {
+  display: inline-block;
+}
+body {
+  background-color: #266E0C;
+}
+
+Sortdeck{
+  float: right;
+}
