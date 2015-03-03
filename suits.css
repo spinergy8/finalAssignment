@@ -1,14 +1,14 @@
-div {
+div heart, div diamond{
   color: red;
 }
 
 li.card.heart {
   color: red;
-  list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/3/3f/Emblem-favorite.png")
+  list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/3/3f/Emblem-favorite.png");
 }
 
 li.card.diamond {
-  color:red;
+  color: red;
   list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Emblem-diamond.svg/48px-Emblem-diamond.svg.png");
 }
 
@@ -22,11 +22,41 @@ li.card.spade {
 
 div {
   display: inline-block;
-}
+ }
+
 body {
   background-color: #266E0C;
 }
 
-Sortdeck{
-  float: right;
+li {
+  border: thin solid black;
+  margin: 10px;
+  width:50px;
+  height: 70px;
+  background-color: white;
 }
+
+#hearts, #diamonds {
+  color: red;
+}
+
+#button {
+  float: left;
+  margin-right: 50px;
+}
+
+#resetbutton {
+  float: right;
+  top: 50px;
+  right: 100px;
+}
+
+button{
+  -moz border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 5px solid #009900;
+  padding: 5px;
+}
+
+
+
